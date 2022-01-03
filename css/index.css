@@ -1,13 +1,5 @@
-#headerNav {
-    display: flex;
-    flex-direction: column;
-}
-
-#upperRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1rem;
+.form-control {
+    max-width: 500px;
 }
 
 .logo {
@@ -15,20 +7,9 @@
     max-height: 3rem;
 }
 
-#searchBar {
-    background-color: blanchedalmond;
-    max-width: 5rem;
-    border-color: black;
-    border-width: 0.5rem;
-}
-
-#searchButton {
-    border-color: black;
-    border-width: 0.5rem;
-}
-
-#lowerRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.hero {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 1440px;
+    object-fit: cover;
 }
