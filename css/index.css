@@ -1,0 +1,34 @@
+#headerNav {
+    display: flex;
+    flex-direction: column;
+}
+
+#upperRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.logo {
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+#searchBar {
+    background-color: blanchedalmond;
+    max-width: 5rem;
+    border-color: black;
+    border-width: 0.5rem;
+}
+
+#searchButton {
+    border-color: black;
+    border-width: 0.5rem;
+}
+
+#lowerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
