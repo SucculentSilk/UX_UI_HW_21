@@ -8,8 +8,10 @@
 }
 
 .hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    width: 1440px;
-    object-fit: cover;
 }
